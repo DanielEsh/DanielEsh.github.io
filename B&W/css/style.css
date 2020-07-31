@@ -1,0 +1,571 @@
+/* 
+font-family: 'Merriweather Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans|Montserrat:300,400&display=swap');
+body,
+html {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.menu-toggle{
+    display: none;
+}
+.menu-btn{
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #1d1d1d;
+    position: relative;
+    margin-top: 10px;
+}
+.menu-btn:hover{
+    cursor: pointer;
+}
+.menu-btn span{
+
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -10px;
+    margin-top: -1px;
+
+}
+.menu-btn span:after,.menu-btn span:before{
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -10px;
+    margin-top: -1px;
+ 
+}
+.menu-btn span:before{
+    transform: translateY(-5px);
+}
+.menu-btn span:after{
+    transform: translateY(5px);
+}
+
+
+.btn {
+    border: 1px solid #fff;
+    color: #000;
+    background: #fff;
+    display: inline-block;
+    padding: 20px 40px;
+    font-size: 13px;
+    text-decoration: none;
+    text-transform: uppercase;
+    /* box-shadow: 0 0 24px 0 rgba(241, 240, 240, 1); */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.btn:hover{
+    background: rgba(241, 240, 240, 0.1);
+    border:1px solid #fff;
+    color: #fff;
+    box-shadow: 0 0 24px 0 rgb(7, 7, 7,1);
+}
+.btn:active{
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.25) inset;
+}
+.btn-light{
+    
+    display: inline-block;
+    border: 1px solid #fff;
+    background: #fff;
+    padding: 20px 40px;
+    font-size: 13px;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.btn-light:hover{
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+header {
+    background: url(../img/sydney-opera-house-3381786_1920.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+}
+.fixed{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+   
+}
+.scrolled{
+    background: #fff;
+    color: #000;
+}
+.scrolled a{
+    color: #000;
+}
+
+.scrolled li a:hover{
+    border-bottom: 3px solid #000;
+}
+
+nav ul {
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul .logo{
+    padding: 0;
+}
+nav ul li .logo:hover{
+    border: none;
+}
+nav ul li {
+    list-style: none;
+    padding: 20px;
+
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+nav ul li a:hover{
+    padding-bottom: 10px;
+    border-bottom: 3px solid #fff;
+}
+nav ul img {
+    padding: 0;
+    padding: 0 20px;
+}
+
+.intro{
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.intro h1 {
+    color: #fff;
+    padding-top: 300px;
+    font-size: 44px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+
+}
+
+.intro p {
+    color: #fff;
+    padding-top: 2px;
+    font-size: 16px;
+    margin-bottom: 45px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 300;
+}
+
+.scrolldown {
+    margin-top: 270px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.scrolldown a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.scrolldown .dot1 {
+    color: #fff;
+}
+
+.scrolldown .dot2 {
+    color: #fff;
+}
+
+.scrolldown .dot3 {
+    color: #fff;
+}
+
+
+.about {
+    background: #1d1d1d;
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+    padding-top: 150px;
+}
+
+.about .town {
+    padding: 0;
+    margin: 0;
+    user-select: none;
+}
+.about .town img {
+    padding-top: 250px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    pointer-events: none;
+}
+
+.about:before {
+    content: "";
+    width: 5px;
+    height: 5000px;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 0;
+}
+
+.block-right {
+    width: 50%;
+    padding: 1px;
+    float: right;
+}
+
+.block-right h3 {
+    padding-left: 80px;
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.block-right p {
+    padding-left: 80px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 300;
+}
+
+.block-left {
+    width: 50%;
+    padding: 1px;
+    float: left;
+}
+
+.block-left h3 {
+    text-align: right;
+    padding-right: 80px;
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.block-left p {
+    text-align: right;
+    padding-right: 80px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 300;
+}
+
+.block-left h3::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #1d1d1d;
+    border: 5px solid #fff;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.block-right h3::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #1d1d1d;
+    border: 5px solid #fff;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.block-left-big {
+    width: 50%;
+    padding: 1px;
+    float: left;
+}
+
+.block-left-big h3 {
+    text-align: right;
+    padding-right: 80px;
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.block-left-big p {
+    text-align: right;
+    padding-right: 80px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 300;
+}
+
+.block-left-big h3::before {
+    content: "";
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #1d1d1d;
+    border: 5px solid #fff;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.team {
+    margin-top: 120px;
+    text-align: center;
+    position: relative;
+    z-index: 5;
+}
+.team h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 34px;
+}
+.team p{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.team img {
+    pointer-events: none;
+}
+
+.block-team {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    padding-bottom: 150px;
+}
+
+.block-team .people {
+    margin: 150px 100px;
+}
+
+.block-team .people2 {
+    margin: 50px 100px;
+
+}
+
+.people i {
+    font-size: 25px;
+    padding: 10px;
+}
+
+.people2 i {
+    font-size: 25px;
+    padding: 10px;
+}
+
+.people a {
+    color: #000;
+}
+
+.people2 a {
+    color: #000;
+}
+
+.people a:hover {
+    color: #999999;
+}
+
+.people2 a:hover {
+    color: #999999;
+}
+.ServicesBlog{
+   
+    padding-top: 150px;
+    background: #1d1d1d;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    z-index: 5;
+    
+    overflow: hidden;
+}
+.ServicesBlog::before{
+    display: block;
+    content: '';
+    width: 100%;
+    height: 120px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 4;
+    background: linear-gradient(to top left,#1d1d1d 50%,#fff 51%);
+}
+
+.ServicesBlog .title{
+padding-bottom: 220px;
+
+}
+.ServicesBlog .title h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 34px;
+}
+.ServicesBlog .title p{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+.ServicesBlog .services{
+    display: flex;
+    justify-content: center;
+    
+}
+.ServicesBlog .services .services-item{
+    text-align: center;
+    padding: 30px;
+}
+.ServicesBlog .services .services-item h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+.ServicesBlog .services .services-item p{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+.ServicesBlog .services .services-item i{
+    font-size: 40px;
+    border: 5px solid #fff;
+    padding: 35px;
+    border-radius: 50%;
+}
+.blog{
+    background: #1d1d1d;
+    text-align: center;
+    position: relative;
+}
+.blog::before{
+    display: block;
+    content: '';
+    width: 100%;
+    height: 80px;
+    
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to bottom right,#1d1d1d 50%,#fff 51%);
+}
+.blogbg{
+    
+    padding-top: 450px;
+    padding-bottom: 200px;
+    background: url(../img/blog.bg.png) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    
+}
+.contact{
+    margin-top: 185px;
+    text-align: center;
+}
+.contact h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 34px;
+}
+.contact p{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+.call{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+.call .call-item{
+    padding: 50px;
+}
+.call .call-item i{
+    font-size: 40px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+form input,textarea {
+   margin: 10px;
+   width: 50%;
+   padding: 15px;
+   border: 2px solid #999999;
+}
+
+form button{
+    width: 50%;
+    border:2px solid #000;
+    background: #000;
+    padding: 20px 40px;
+    font-size: 17px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    
+}
+form button:hover{
+    cursor: pointer;
+    background: #fff;
+    border:2px solid #000;
+    color: #000;
+}
+footer{
+    background: #1d1d1d;
+    color: #fff;
+    margin-top: 150px;
+    text-align: center;
+    padding: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
