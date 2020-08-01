@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1567px" height="1369px" viewBox="0 0 1567 1369" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>bg-footer</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-0.8%" y="-0.9%" width="101.5%" height="101.8%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bg-footer" filter="url(#filter-1)" transform="translate(4.000000, -3.000000)" fill="#ECEAEA" fill-rule="nonzero">
+            <path d="M1559,956.226621 C1545.9708,736.648656 1468.02562,626.859674 1325.16444,626.859674 C1053.85963,626.859674 1030.00605,783.014303 818.520739,690.608115 C617.074362,602.588328 698.675634,324.385734 398.632549,271.754914 C383.680125,269.132096 367.779905,267.069475 350.849626,265.618506 C113.074946,245.240586 -3.84283259,156.701084 0.0962917738,0 L0.0962917738,1365.90625 L1559,1365.90625 L1559,956.226621 Z" id="Path" transform="translate(779.500000, 682.953125) scale(-1, 1) translate(-779.500000, -682.953125) "></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200px" height="720px" viewBox="0 0 1200 720" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Path 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1200" height="720" rx="5"></rect>
+        <radialGradient cx="40.9160518%" cy="34.8139018%" fx="40.9160518%" fy="34.8139018%" r="126.942107%" gradientTransform="translate(0.409161,0.348139),scale(0.688279,1.000000),rotate(7.531167),translate(-0.409161,-0.348139)" id="radialGradient-3">
+            <stop stop-color="#43A047" offset="0%"></stop>
+            <stop stop-color="#53AA57" offset="20.1703648%"></stop>
+            <stop stop-color="#71BD74" offset="77.1773496%"></stop>
+            <stop stop-color="#81C784" offset="100%"></stop>
+        </radialGradient>
+        <linearGradient x1="13.9105362%" y1="4.29618752%" x2="93.2772236%" y2="31.9634206%" id="linearGradient-4">
+            <stop stop-color="#43A047" offset="0%"></stop>
+            <stop stop-color="#53AA57" offset="20.1703648%"></stop>
+            <stop stop-color="#71BD74" offset="77.1773496%"></stop>
+            <stop stop-color="#81C784" offset="100%"></stop>
+        </linearGradient>
+        <radialGradient cx="100%" cy="-16.1534288%" fx="100%" fy="-16.1534288%" r="117.262755%" gradientTransform="translate(1.000000,-0.161534),scale(0.600000,1.000000),rotate(152.539257),translate(-1.000000,0.161534)" id="radialGradient-5">
+            <stop stop-color="#DCEDC8" offset="0%"></stop>
+            <stop stop-color="#C3DEA5" offset="22.6956949%"></stop>
+            <stop stop-color="#9EC872" stop-opacity="0" offset="68.133274%"></stop>
+            <stop stop-color="#7CB342" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+        <rect id="path-6" x="0" y="0" width="1200" height="720" rx="5"></rect>
+    </defs>
+    <g id="001" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-1440" transform="translate(-120.000000, -2317.000000)">
+            <g id="4-How-it-works" transform="translate(120.000000, 2317.000000)">
+                <g id="Path-4">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#66BB6A" xlink:href="#path-1"></use>
+                    <path d="M1039,820.432795 C1039,672.203122 1023.91906,572.283721 858.561146,572.283721 C649.209197,572.283721 630.802613,689.932523 467.610294,620.312574 C312.164501,553.997393 375.132,344.396167 143.604206,304.743466 C132.06619,302.767403 119.796809,301.213399 106.732585,300.120221 C-76.7458887,284.767248 -166.965316,218.060507 -163.925697,100 L-163.925697,912.628806 L1001.40857,912.628806 C1026.46952,949.984581 1039,919.252577 1039,820.432795 Z" fill="url(#radialGradient-3)" opacity="0.5" mask="url(#mask-2)"></path>
+                    <path d="M1321,174.432795 C1321,26.2031223 1305.91906,-73.7162787 1140.56115,-73.7162787 C931.209197,-73.7162787 912.802613,43.9325231 749.610294,-25.6874256 C586.417976,-95.3073744 663.950296,-322.850319 388.732585,-345.879779 C205.254111,-361.232752 115.034684,-427.939493 118.074303,-546 L118.074303,266.628806 L1283.40857,266.628806 C1308.46952,303.984581 1321,273.252577 1321,174.432795 Z" fill="url(#linearGradient-4)" mask="url(#mask-2)" transform="translate(719.500000, -132.000000) rotate(-180.000000) translate(-719.500000, 132.000000) "></path>
+                    <mask id="mask-7" fill="white">
+                        <use xlink:href="#path-6"></use>
+                    </mask>
+                    <use id="Mask" fill="url(#radialGradient-5)" opacity="0.445089286" xlink:href="#path-6"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
