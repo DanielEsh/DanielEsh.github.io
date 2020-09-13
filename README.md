@@ -7,4 +7,4 @@ https://danielesh.github.io/B&W/
 # 2. Zou
 https://danielesh.github.io/zou-green/
 # 3. Alexis
-https://danielesh.github.io/alexis-lp/
+https://github.com/DanielEsh/alexis-lp
